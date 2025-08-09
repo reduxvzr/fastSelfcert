@@ -2,9 +2,9 @@
 set -e
 export subdomain=$1
 export domain=$2
-export country="DE"
-export organization="SOME"
-export location="Dusseldorf"
+export country="${country:-DE}"
+export location="${location:-Dusseldorf}"
+export organization="${organization:-SOME}"
 
 # Check first arg with subdomain 
 if [ -z "$subdomain" ]; then
