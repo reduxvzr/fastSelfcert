@@ -53,6 +53,13 @@ subject=CN=example.lan, C=DE, ST=No state, L=Dusseldorf, O=SOME
 
 p12 password: randompasswith16symbols
 
-❯ ls example.lan
-CA  example.lan.key  example.lan.p12  example.lan.pem  openssl.cnf
+❯ tree example.lan
+example.lan
+├── CA
+│   ├── selfsignCA.crt
+│   └── selfsignCA.key
+├── example.lan.key
+├── example.lan.p12
+├── example.lan.pem
+└── openssl.cnf
 ```
