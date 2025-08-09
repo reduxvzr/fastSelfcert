@@ -1,6 +1,6 @@
 ## Usage
 
-For *.example.lan:
+For example.lan and *.example.lan:
 ```
 ./fastSelfcert.sh example lan
 ```
