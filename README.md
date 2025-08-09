@@ -1,6 +1,6 @@
 ## Usage
 
-For example.lan and *.example.lan:
+For **example.lan** and ***.example.lan**:
 ```
 ./fastSelfcert.sh example lan
 ```
@@ -10,7 +10,7 @@ An even quicker way:
 bash <(curl -s https://raw.githubusercontent.com/reduxvzr/fastSelfcert/refs/heads/main/fastSelfcert.sh) example lan
 ```
 
-With other country, location or organization:
+With other **country**, **location** or **organization**:
 ```
 country=US location=Boston \
 bash <(curl -s https://raw.githubusercontent.com/reduxvzr/fastSelfcert/refs/heads/main/fastSelfcert.sh) example lan
