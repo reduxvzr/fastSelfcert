@@ -52,7 +52,10 @@ subject=CN=example.lan, C=DE, ST=No state, L=Dusseldorf, O=SOME
 
 
 p12 password: randompasswith16symbols
+```
 
+After execution, the script creates a directory with the following contents
+```
 ❯ tree example.lan
 example.lan
 ├── CA
